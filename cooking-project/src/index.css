@@ -1,0 +1,20 @@
+@import "tailwindcss" ;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+.bg-custom {
+    background-color: rgba(219, 237, 241, 1);
+}
+
+.bg-header {
+    background-color: rgba(231, 250, 254, 1);
+}
