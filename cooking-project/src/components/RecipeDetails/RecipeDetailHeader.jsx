@@ -38,13 +38,13 @@ const recipes = {
     9: { image: Image6, description: "The Creamiest Creamy Chicken and Bacon Pasta" },
 };
 
-export default function RecipeHeader() {
+export default function RecipeDetailHeader() {
     const { id } = useParams();
     const recipe = recipes[id];
 
 
     if (!recipe) {
-        return <p>Recipe not found!</p>;
+        return <p>RecipeMain not found!</p>;
     }
 
     return (
@@ -71,9 +71,9 @@ export default function RecipeHeader() {
                     </div>
                 </div>
             </div>
-            <div className="flex mb-15">
+            <div className="flex mb-15 gap-8">
                 <div className="w-2/3">
-                    <img src={recipe.image} alt="Recipe" className="w-[800px] h-auto rounded-4xl" />
+                    <img src={recipe.image} alt="RecipeMain" className="w-[900px] h-[550px] rounded-4xl" />
                 </div>
                 <div className="w-1/3 bg-blue-50 rounded-2xl flex flex-col p-4">
                     <p className="text-2xl font-bold">Nutrition Information</p>
@@ -84,8 +84,8 @@ export default function RecipeHeader() {
                                     <p>{item.text}</p>
                                 </div>
                                 <div className="self-end">
-                                    <span>{item.num}</span>
-                                    <span>{item.unit}</span>
+                                    <span className="self-end">{item.num}</span>
+                                    <span className="self-end">{item.unit}</span>
                                 </div>
                             </div>
                         ))}
@@ -101,7 +101,7 @@ export default function RecipeHeader() {
                 </div>
             </div>
             <p className="text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </div>
     );

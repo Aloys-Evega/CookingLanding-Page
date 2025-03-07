@@ -3,26 +3,26 @@ import Image from "../../../public/recipes_Details_assets/Rectangle 23.png";
 const RecipeDirectionDetails = [
     {
         id: 1,
-        title : "Recipe Direction",
+        title : "RecipeMain Direction",
         description1 : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
         image : Image,
         description2 : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
     },
     {
         id: 2,
-        title : "Recipe Direction",
+        title : "RecipeMain Direction",
         description1 : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
         description2 : ""
     },
     {
         id: 3,
-        title : "Recipe Direction",
+        title : "RecipeMain Direction",
         description1 : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
         description2 : ""
     },
 ]
 
-export default function RecipeDirection() {
+export default function RecipeDetailDirection() {
     return (
         <div className="w-2/3 mt-30">
             <p className="text-4xl font-bold">

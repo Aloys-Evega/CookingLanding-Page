@@ -7,6 +7,10 @@ const OtherRecipeDetails =[
     {id :1, image : Image3, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
     {id :2, image : Image4, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
     {id :3, image : Image5, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
+    {id :4, image : Image5, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
+    {id :5, image : Image5, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
+    {id :6, image : Image5, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
+    {id :7, image : Image5, title : "Chicken Meatball with Creamy Chees...",subTitle : "By Andreas Paula"},
 ]
 
 
@@ -22,7 +26,7 @@ export default function OtherRecipe() {
                       OtherRecipeDetails.map((item)=>
                           (
                               <div key={item.id} className="flex space-x-4">
-                                  <img className="w-[100px] h-auto rounded-3xl" src={item.image} alt="OtherRecipe"/>
+                                  <img className="w-[160px] h-[100px] rounded-3xl" src={item.image} alt="OtherRecipe"/>
                                   <div className="w-1/2 flex flex-col">
                                       <p className=" text-xl font-bold">
                                           {item.title}

@@ -11,7 +11,7 @@ export default function Navbar() {
             <nav>
                 <ul className="flex space-x-10">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="recipe/1">Recipes</Link></li>
+                    <li><Link to="recipe">Recipes</Link></li>
                     <li><Link to="blog">Blog</Link></li>
                     <li>Contact</li>
                     <li>About Us</li>
